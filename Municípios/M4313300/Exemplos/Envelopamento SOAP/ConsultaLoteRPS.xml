@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<mConsultaLoteRPS xmlns="http://tempuri.org/">
+			<remessa>
+				<![CDATA[<ConsultarLoteRpsEnvio xmlns="http://www.abrasf.org.br/nfse.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Prestador><CpfCnpj><Cnpj>99999999999962</Cnpj></CpfCnpj><RazaoSocial>Teste</RazaoSocial><InscricaoMunicipal>999</InscricaoMunicipal></Prestador><Protocolo>99999999999962000000004</Protocolo></ConsultarLoteRpsEnvio>]]></remessa>
+			<cabecalho>
+				<![CDATA[<cabecalho xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.abrasf.org.br/nfse.xsd" <versaoDados>20.01</versaoDados> </cabecalho>]]></cabecalho>
+		</mConsultaLoteRPS>
+	</soap:Body>
+</soap:Envelope>
