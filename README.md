@@ -3,7 +3,7 @@ Nota Fiscal de Serviços Eletrônica
 
 Este repositório destina-se a documentar o processo, organizar documentações já disponíveis e oferecer dicas para o desenvolvimento de NFS-e. 
 
-##Como o repositório é organizado?
+## Como o repositório é organizado?
 ```
 Raiz -> Autorizadores
         Municípios
@@ -38,9 +38,9 @@ No arquivo config.txt, por favor adicionar, endereços do web service (produçã
 
 Para a pasta de municípios, manter a mesma estrutura acima (exemplificada em GINFES v2.0): 
 
-##Caso tenha algum arquivo mais a adicionar, por favor, não exite. Mas mantenha a estrutura acima definida para que o repositório não se desorganize. 
+## Caso tenha algum arquivo mais a adicionar, por favor, não exite. Mas mantenha a estrutura acima definida para que o repositório não se desorganize. 
 
-##Apesar dos exemplos terem sido feitos para notas que utilizam web service, não exitem em adicionar as notas que funcionam como exportação de arquivo. Lembrem-se, mantenham a estrutura definida.
+## Apesar dos exemplos terem sido feitos para notas que utilizam web service, não exitem em adicionar as notas que funcionam como exportação de arquivo. Lembrem-se, mantenham a estrutura definida.
 
-###Dicas?
+### Dicas?
                 
