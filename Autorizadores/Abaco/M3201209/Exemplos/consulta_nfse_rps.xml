@@ -1,0 +1,11 @@
+	<ConsultarNfseRpsEnvio>
+		<IdentificacaoRps>
+			<Numero>12076</Numero>
+			<Serie>A1</Serie>
+			<Tipo>1</Tipo>
+		</IdentificacaoRps>
+		<Prestador>
+			<Cnpj>89811142000142</Cnpj>
+			<InscricaoMunicipal>87600576</InscricaoMunicipal>
+		</Prestador>
+	</ConsultarNfseRpsEnvio>

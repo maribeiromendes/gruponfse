@@ -1,0 +1,47 @@
+﻿<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <SOAP-ENV:Body>
+      <CancelarNfse.ExecuteResponse xmlns="http://www.e-nfs.com.br">
+         <Outputxml><![CDATA[<CancelarNfseResposta>
+<Cancelamento>
+<Confirmacao id="CAN_92">
+	
+
+	<Pedido>
+			<InfPedidoCancelamento id="02">
+				<IdentificacaoNfse>
+					<Numero>92</Numero>
+					<Cnpj>32649500000145</Cnpj>
+					<InscricaoMunicipal>123</InscricaoMunicipal>
+					<CodigoMunicipio>4304606</CodigoMunicipio>
+				</IdentificacaoNfse>
+				<CodigoCancelamento>2</CodigoCancelamento>
+			</InfPedidoCancelamento>
+		</Pedido>
+	
+
+
+
+	<infConfirmacaoCancelamento>
+		<Sucesso>true</Sucesso>
+		<DataHora>2010-11-05T10:46:36</DataHora>
+	</infConfirmacaoCancelamento>
+</Confirmacao>
+
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#CAN_92"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>lG6Arz95JGPaWzNERYjIO49TIKU=</DigestValue></Reference></SignedInfo><SignatureValue>OtvEc2U7Wrh2rdTOo4Sgy6N0vV2RyXiZZWr83S0gEDk1Ik4rxVByVMi34/smkUtw++U5jh3PMASk
+DyQTnDEhAef4S+1HD5t9RdUXbklcGAIwOFrD09JTrPeGrqDdQbjDSgUoHMg4LEvecqb1+YyJNt7n
+8S0qyOXisbCUNrX77Po=</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=www.e-nfs.com.br,OU=Nota Fiscal Servicos Eletronica,O=Abaco Tecnologia,L=Cuiaba,ST=Mato Grosso,C=BR</X509SubjectName><X509Certificate>MIICoTCCAgqgAwIBAgIES9iUvzANBgkqhkiG9w0BAQQFADCBlDELMAkGA1UEBhMCQlIxFDASBgNV
+BAgTC01hdG8gR3Jvc3NvMQ8wDQYDVQQHEwZDdWlhYmExGTAXBgNVBAoTEEFiYWNvIFRlY25vbG9n
+aWExKDAmBgNVBAsTH05vdGEgRmlzY2FsIFNlcnZpY29zIEVsZXRyb25pY2ExGTAXBgNVBAMTEHd3
+dy5lLW5mcy5jb20uYnIwHhcNMTAwNDI4MjAwNDE1WhcNMTEwNDI4MjAwNDE1WjCBlDELMAkGA1UE
+BhMCQlIxFDASBgNVBAgTC01hdG8gR3Jvc3NvMQ8wDQYDVQQHEwZDdWlhYmExGTAXBgNVBAoTEEFi
+YWNvIFRlY25vbG9naWExKDAmBgNVBAsTH05vdGEgRmlzY2FsIFNlcnZpY29zIEVsZXRyb25pY2Ex
+GTAXBgNVBAMTEHd3dy5lLW5mcy5jb20uYnIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAIGi
+AYBs/GCBABnz6ArUTdXvqUVMfI9SYvH9erWV67R50f2jRniE/WDaVGOBSlacwHg2K5rNxQCv3tMJ
+PCtJJ2SpoxRERyY6BIgRyNjVEJIdA31iIo3EW9V/WFOGCzHNKxoNO9uLoXJEkCoJ4Ee6xeTQeeUZ
+hAEW9Klm9cR8XzP5AgMBAAEwDQYJKoZIhvcNAQEEBQADgYEAWMI/ZxBo1nrp0kHC7CVbu5mVwaYO
++jqUq75wp+Wn4XgKcJb1RXv9EXXHuavEuqIqNQuLMwIcAmITOeY5FIy86Vdj4ZCYaNjT+lf5f+5l
+iT0I11c0stSgVSehMWErODu2I0+/AgidElopZlVJdjdxSVchj/+NBEr1XqS2VXp+rFY=</X509Certificate></X509Data></KeyInfo></Signature></Cancelamento>
+</CancelarNfseResposta>]]></Outputxml>
+      </CancelarNfse.ExecuteResponse>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

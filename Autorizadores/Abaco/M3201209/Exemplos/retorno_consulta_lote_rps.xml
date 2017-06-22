@@ -1,0 +1,229 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <SOAP-ENV:Body>
+      <ConsultarLoteRps.ExecuteResponse xmlns="http://www.e-nfs.com.br">
+         <Outputxml><![CDATA[<ConsultarLoteRpsResposta>
+  <ListaNfse>
+<CompNfse>
+<Nfse>
+	<InfNfse id="90">
+		<Numero>90</Numero>
+		<CodigoVerificacao>05A8.DC87.2DE9</CodigoVerificacao>
+		<DataEmissao>2010-10-21T11:30:43</DataEmissao>
+		<IdentificacaoRps>
+			<Numero>85</Numero>
+			<Serie>1</Serie>
+			<Tipo>1</Tipo>
+		</IdentificacaoRps>
+		<DataEmissaoRps>2010-10-11</DataEmissaoRps>
+		<NaturezaOperacao>1</NaturezaOperacao>
+		<RegimeEspecialTributacao>0</RegimeEspecialTributacao>
+		<OptanteSimplesNacional>2</OptanteSimplesNacional>
+		<IncentivadorCultural>2</IncentivadorCultural>
+		<Competencia>2010-10-21</Competencia>
+		<NfseSubstituida>2</NfseSubstituida>
+		<OutrasInformacoes>pj Canoas 101</OutrasInformacoes>
+		<Servico>
+			<Valores>
+				<ValorServicos>500.00</ValorServicos>
+				<ValorDeducoes>0.00</ValorDeducoes>
+				<ValorPis>0.00</ValorPis>
+				<ValorCofins>0.00</ValorCofins>
+				<ValorInss>0.00</ValorInss>
+				<ValorIr>0.00</ValorIr>
+				<ValorCsll>0.00</ValorCsll>
+				<IssRetido>2</IssRetido>
+				<ValorIss>10.00</ValorIss>
+				<ValorIssRetido>0.00</ValorIssRetido>
+				<OutrasRetencoes>0.00</OutrasRetencoes>
+				<BaseCalculo>500.00</BaseCalculo>
+				<Aliquota>0.0200</Aliquota>
+				<ValorLiquidoNfse>500.00</ValorLiquidoNfse>
+				<DescontoIncondicionado>0.00</DescontoIncondicionado>
+				<DescontoCondicionado>0.00</DescontoCondicionado>
+			</Valores>
+			<ItemListaServico>101</ItemListaServico>
+			<CodigoCnae>0</CodigoCnae>
+			<CodigoTributacaoMunicipio>101</CodigoTributacaoMunicipio>
+			<Discriminacao>pj Canoas 101</Discriminacao>
+			<CodigoMunicipio>4304606</CodigoMunicipio>
+		</Servico>
+		<ValorCredito>0.00</ValorCredito>
+		<PrestadorServico>
+			<IdentificacaoPrestador>
+				<Cnpj>32649500000145</Cnpj>
+				<InscricaoMunicipal>123</InscricaoMunicipal>
+			</IdentificacaoPrestador>
+			<RazaoSocial>WEB SERVICE XML</RazaoSocial>
+			<NomeFantasia>WEB SERVICE XML</NomeFantasia>
+			<Endereco>
+				<Endereco>RUA RUA GONÇALVES DIAS</Endereco>
+				<Numero>67</Numero>
+				<Complemento/>
+				<Bairro>CENTRO</Bairro>
+				<CodigoMunicipio>4304606</CodigoMunicipio>
+				<Uf>RS</Uf>
+				<Cep>********</Cep>
+			</Endereco>
+			<Contato>
+				<Telefone/>
+				<Email>nfse1234@gmail.com</Email>
+			</Contato>
+		</PrestadorServico>
+		<TomadorServico>
+			<IdentificacaoTomador>
+				<CpfCnpj>
+					<Cpf/>
+					<Cnpj>32544172000112</Cnpj>
+				</CpfCnpj>
+				<InscricaoMunicipal>0</InscricaoMunicipal>
+			</IdentificacaoTomador>
+			<RazaoSocial>PJ Fora POA</RazaoSocial>
+			<Endereco>
+				<Endereco>RUA BARAO DE MELGACO</Endereco>
+				<Numero>3726</Numero>
+				<Complemento>CENTRO</Complemento>
+				<Bairro>CENTRO</Bairro>
+				<CodigoMunicipio>4314902</CodigoMunicipio>
+				<Uf>RS</Uf>
+				<Cep>92000000</Cep>
+			</Endereco>
+			<Contato>
+				<Telefone/>
+				<Email/>
+			</Contato>
+		</TomadorServico>
+		<OrgaoGerador>
+			<CodigoMunicipio>4304606</CodigoMunicipio>
+			<Uf>RS</Uf>
+		</OrgaoGerador>
+	</InfNfse>
+	
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#90"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>taSAbSjECLBO16gh4nlLFhFQKw8=</DigestValue></Reference></SignedInfo><SignatureValue>fHNtOk4yS8AQX2G63VHp87SVZAbPaENL6iwTpnbWyoHqyM9zDkz+li2/gJ1whDolW8OxkdHuJehm
+thzZQ5NON5JRM0Z99ru8+LkvbQNDImokQoNU0pwD2huxXH7VNgKY7qK7QGd+UfonWT32wJWU4eRJ
+WR1X5eaYfUjN754S8rY=</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=www.e-nfs.com.br,OU=Nota Fiscal Servicos Eletronica,O=Abaco Tecnologia,L=Cuiaba,ST=Mato Grosso,C=BR</X509SubjectName><X509Certificate>MIICoTCCAgqgAwIBAgIES9iUvzANBgkqhkiG9w0BAQQFADCBlDELMAkGA1UEBhMCQlIxFDASBgNV
+BAgTC01hdG8gR3Jvc3NvMQ8wDQYDVQQHEwZDdWlhYmExGTAXBgNVBAoTEEFiYWNvIFRlY25vbG9n
+aWExKDAmBgNVBAsTH05vdGEgRmlzY2FsIFNlcnZpY29zIEVsZXRyb25pY2ExGTAXBgNVBAMTEHd3
+dy5lLW5mcy5jb20uYnIwHhcNMTAwNDI4MjAwNDE1WhcNMTEwNDI4MjAwNDE1WjCBlDELMAkGA1UE
+BhMCQlIxFDASBgNVBAgTC01hdG8gR3Jvc3NvMQ8wDQYDVQQHEwZDdWlhYmExGTAXBgNVBAoTEEFi
+YWNvIFRlY25vbG9naWExKDAmBgNVBAsTH05vdGEgRmlzY2FsIFNlcnZpY29zIEVsZXRyb25pY2Ex
+GTAXBgNVBAMTEHd3dy5lLW5mcy5jb20uYnIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAIGi
+AYBs/GCBABnz6ArUTdXvqUVMfI9SYvH9erWV67R50f2jRniE/WDaVGOBSlacwHg2K5rNxQCv3tMJ
+PCtJJ2SpoxRERyY6BIgRyNjVEJIdA31iIo3EW9V/WFOGCzHNKxoNO9uLoXJEkCoJ4Ee6xeTQeeUZ
+hAEW9Klm9cR8XzP5AgMBAAEwDQYJKoZIhvcNAQEEBQADgYEAWMI/ZxBo1nrp0kHC7CVbu5mVwaYO
++jqUq75wp+Wn4XgKcJb1RXv9EXXHuavEuqIqNQuLMwIcAmITOeY5FIy86Vdj4ZCYaNjT+lf5f+5l
+iT0I11c0stSgVSehMWErODu2I0+/AgidElopZlVJdjdxSVchj/+NBEr1XqS2VXp+rFY=</X509Certificate></X509Data></KeyInfo></Signature></Nfse></CompNfse>
+
+<CompNfse>
+<Nfse>
+	<InfNfse id="91">
+		<Numero>91</Numero>
+		<CodigoVerificacao>349F.1589.833E</CodigoVerificacao>
+		<DataEmissao>2010-10-21T11:30:43</DataEmissao>
+		<IdentificacaoRps>
+			<Numero>86</Numero>
+			<Serie>1</Serie>
+			<Tipo>1</Tipo>
+		</IdentificacaoRps>
+		<DataEmissaoRps>2010-10-11</DataEmissaoRps>
+		<NaturezaOperacao>1</NaturezaOperacao>
+		<RegimeEspecialTributacao>0</RegimeEspecialTributacao>
+		<OptanteSimplesNacional>2</OptanteSimplesNacional>
+		<IncentivadorCultural>2</IncentivadorCultural>
+		<Competencia>2010-10-21</Competencia>
+		<NfseSubstituida>2</NfseSubstituida>
+		<OutrasInformacoes>pj Canoas 101</OutrasInformacoes>
+		<Servico>
+			<Valores>
+				<ValorServicos>500.00</ValorServicos>
+				<ValorDeducoes>0.00</ValorDeducoes>
+				<ValorPis>0.00</ValorPis>
+				<ValorCofins>0.00</ValorCofins>
+				<ValorInss>0.00</ValorInss>
+				<ValorIr>0.00</ValorIr>
+				<ValorCsll>0.00</ValorCsll>
+				<IssRetido>2</IssRetido>
+				<ValorIss>10.00</ValorIss>
+				<ValorIssRetido>0.00</ValorIssRetido>
+				<OutrasRetencoes>0.00</OutrasRetencoes>
+				<BaseCalculo>500.00</BaseCalculo>
+				<Aliquota>0.0200</Aliquota>
+				<ValorLiquidoNfse>500.00</ValorLiquidoNfse>
+				<DescontoIncondicionado>0.00</DescontoIncondicionado>
+				<DescontoCondicionado>0.00</DescontoCondicionado>
+			</Valores>
+			<ItemListaServico>101</ItemListaServico>
+			<CodigoCnae>0</CodigoCnae>
+			<CodigoTributacaoMunicipio>101</CodigoTributacaoMunicipio>
+			<Discriminacao>pj Canoas 101</Discriminacao>
+			<CodigoMunicipio>4304606</CodigoMunicipio>
+		</Servico>
+		<ValorCredito>0.00</ValorCredito>
+		<PrestadorServico>
+			<IdentificacaoPrestador>
+				<Cnpj>32649500000145</Cnpj>
+				<InscricaoMunicipal>123</InscricaoMunicipal>
+			</IdentificacaoPrestador>
+			<RazaoSocial>WEB SERVICE XML</RazaoSocial>
+			<NomeFantasia>WEB SERVICE XML</NomeFantasia>
+			<Endereco>
+				<Endereco>RUA RUA GONÇALVES DIAS</Endereco>
+				<Numero>67</Numero>
+				<Complemento/>
+				<Bairro>CENTRO</Bairro>
+				<CodigoMunicipio>4304606</CodigoMunicipio>
+				<Uf>RS</Uf>
+				<Cep>********</Cep>
+			</Endereco>
+			<Contato>
+				<Telefone/>
+				<Email>nfse1234@gmail.com</Email>
+			</Contato>
+		</PrestadorServico>
+		<TomadorServico>
+			<IdentificacaoTomador>
+				<CpfCnpj>
+					<Cpf/>
+					<Cnpj>32544172000112</Cnpj>
+				</CpfCnpj>
+				<InscricaoMunicipal>0</InscricaoMunicipal>
+			</IdentificacaoTomador>
+			<RazaoSocial>PJ Fora POA</RazaoSocial>
+			<Endereco>
+				<Endereco>RUA BARAO DE MELGACO</Endereco>
+				<Numero>3726</Numero>
+				<Complemento>CENTRO</Complemento>
+				<Bairro>CENTRO</Bairro>
+				<CodigoMunicipio>4314902</CodigoMunicipio>
+				<Uf>RS</Uf>
+				<Cep>92000000</Cep>
+			</Endereco>
+			<Contato>
+				<Telefone/>
+				<Email/>
+			</Contato>
+		</TomadorServico>
+		<OrgaoGerador>
+			<CodigoMunicipio>4304606</CodigoMunicipio>
+			<Uf>RS</Uf>
+		</OrgaoGerador>
+	</InfNfse>
+	
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#91"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>34gvbnjVeigASmgT0RC6bxx5NEM=</DigestValue></Reference></SignedInfo><SignatureValue>el04bW2QcqPEHTvMaljsniMpyiINGlUzDFzoLYexSm7ZPaAo27mA/fCjkgDlegFuvJzQQeo1aqz9
+NHhUk1HhiTl24/q6hF/ll8jOIsQEuQmjj9Us4JCEAlR4aak2p3yR+dw24+lvY+YUovomxcL65lgc
+xGxkCLhnpbHXClRsm/Q=</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=www.e-nfs.com.br,OU=Nota Fiscal Servicos Eletronica,O=Abaco Tecnologia,L=Cuiaba,ST=Mato Grosso,C=BR</X509SubjectName><X509Certificate>MIICoTCCAgqgAwIBAgIES9iUvzANBgkqhkiG9w0BAQQFADCBlDELMAkGA1UEBhMCQlIxFDASBgNV
+BAgTC01hdG8gR3Jvc3NvMQ8wDQYDVQQHEwZDdWlhYmExGTAXBgNVBAoTEEFiYWNvIFRlY25vbG9n
+aWExKDAmBgNVBAsTH05vdGEgRmlzY2FsIFNlcnZpY29zIEVsZXRyb25pY2ExGTAXBgNVBAMTEHd3
+dy5lLW5mcy5jb20uYnIwHhcNMTAwNDI4MjAwNDE1WhcNMTEwNDI4MjAwNDE1WjCBlDELMAkGA1UE
+BhMCQlIxFDASBgNVBAgTC01hdG8gR3Jvc3NvMQ8wDQYDVQQHEwZDdWlhYmExGTAXBgNVBAoTEEFi
+YWNvIFRlY25vbG9naWExKDAmBgNVBAsTH05vdGEgRmlzY2FsIFNlcnZpY29zIEVsZXRyb25pY2Ex
+GTAXBgNVBAMTEHd3dy5lLW5mcy5jb20uYnIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAIGi
+AYBs/GCBABnz6ArUTdXvqUVMfI9SYvH9erWV67R50f2jRniE/WDaVGOBSlacwHg2K5rNxQCv3tMJ
+PCtJJ2SpoxRERyY6BIgRyNjVEJIdA31iIo3EW9V/WFOGCzHNKxoNO9uLoXJEkCoJ4Ee6xeTQeeUZ
+hAEW9Klm9cR8XzP5AgMBAAEwDQYJKoZIhvcNAQEEBQADgYEAWMI/ZxBo1nrp0kHC7CVbu5mVwaYO
++jqUq75wp+Wn4XgKcJb1RXv9EXXHuavEuqIqNQuLMwIcAmITOeY5FIy86Vdj4ZCYaNjT+lf5f+5l
+iT0I11c0stSgVSehMWErODu2I0+/AgidElopZlVJdjdxSVchj/+NBEr1XqS2VXp+rFY=</X509Certificate></X509Data></KeyInfo></Signature></Nfse></CompNfse>
+  </ListaNfse>
+</ConsultarLoteRpsResposta>]]></Outputxml>
+      </ConsultarLoteRps.ExecuteResponse>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

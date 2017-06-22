@@ -10,6 +10,7 @@ Raiz -> Autorizadores
         Abrasf
 ```
 Na raíz teremos apenas estas três pastas. Dentro de autorizadores, separe da seguinte maneira:
+
 ```
 Autorizadores -> GINFES
                  WebISS
@@ -17,17 +18,19 @@ Autorizadores -> GINFES
                  ...
 ```
 Em cada pasta referente ao autorizador coloque a documentação do mesmo e as dicas para utilização, separe por versão se necesserário, por exemplo:
+
 ```
 GINFES -> v2.0 
           v3.0
-          contato.txt (contato do web service)
-          listacidades.txt (lista de cidades que o web service atende) Nome cidade | Código IBGE 
+          contato.md (contato do web service)
+          listacidades.md (lista de cidades que o web service atende) Nome cidade | Código IBGE 
 ```
 
-Como um autorizador pode atender diversas cidades, tendo estas particularidades ou não, separe as pastas de cada cidade dentro do autorizador (lembre-se de verificar se a cidade já foi adicionada ao listacidades.txt, caso não tenha sido, adicione):
+Como um autorizador pode atender diversas cidades, tendo estas particularidades ou não, separe as pastas de cada cidade dentro do autorizador (lembre-se de verificar se a cidade já foi adicionada ao listacidades.md, caso não tenha sido, adicione):
+
 ```
-v2.0 -> M00000000 (MCodigoIBGE) -> config.txt 
-                                   contato.txt (caso necessário, se diferente do autorizador raiz)
+v2.0 -> M00000000 (MCodigoIBGE) -> config.md 
+                                   contato.md (caso necessário, se diferente do autorizador raiz)
         soap.xml
         Exemplos -> Arquivos de envio e retorno do web service (xml)
 ```

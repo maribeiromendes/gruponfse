@@ -1,0 +1,116 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <SOAP-ENV:Body>
+      <ConsultarNfsePorRps.ExecuteResponse xmlns="http://www.e-nfs.com.br">
+         <Outputxml><![CDATA[<ConsultarNfseRpsResposta>
+<CompNfse xmlns="http://www.e-nfs.com.br">
+<Nfse xmlns="http://www.e-nfs.com.br">
+	<InfNfse id="56">
+		<Numero>56</Numero>
+		<CodigoVerificacao>B697.B770.C6B4</CodigoVerificacao>
+		<DataEmissao>2010-10-13T14:53:54</DataEmissao>
+		<IdentificacaoRps>
+			<Numero>54</Numero>
+			<Serie>1</Serie>
+			<Tipo>1</Tipo>
+		</IdentificacaoRps>
+		<DataEmissaoRps>2010-10-11</DataEmissaoRps>
+		<NaturezaOperacao>1</NaturezaOperacao>
+		<RegimeEspecialTributacao>0</RegimeEspecialTributacao>
+		<OptanteSimplesNacional>2</OptanteSimplesNacional>
+		<IncentivadorCultural>2</IncentivadorCultural>
+		<Competencia>2010-10-13</Competencia>
+		<NfseSubstituida>2</NfseSubstituida>
+		<OutrasInformacoes>pj canoas 101</OutrasInformacoes>
+		<Servico>
+			<Valores>
+				<ValorServicos>5000.00</ValorServicos>
+				<ValorDeducoes>0.00</ValorDeducoes>
+				<ValorPis>0.00</ValorPis>
+				<ValorCofins>0.00</ValorCofins>
+				<ValorInss>0.00</ValorInss>
+				<ValorIr>0.00</ValorIr>
+				<ValorCsll>0.00</ValorCsll>
+				<IssRetido>1</IssRetido>
+				<ValorIss>100.00</ValorIss>
+				<ValorIssRetido>100.00</ValorIssRetido>
+				<OutrasRetencoes>0.00</OutrasRetencoes>
+				<BaseCalculo>5000.00</BaseCalculo>
+				<Aliquota>0.0200</Aliquota>
+				<ValorLiquidoNfse>4900.00</ValorLiquidoNfse>
+				<DescontoIncondicionado>0.00</DescontoIncondicionado>
+				<DescontoCondicionado>0.00</DescontoCondicionado>
+			</Valores>
+			<ItemListaServico>101</ItemListaServico>
+			<CodigoCnae>0</CodigoCnae>
+			<CodigoTributacaoMunicipio>101</CodigoTributacaoMunicipio>
+			<Discriminacao>pj canoas 101</Discriminacao>
+			<CodigoMunicipio>4304606</CodigoMunicipio>
+		</Servico>
+		<ValorCredito>0.00</ValorCredito>
+		<PrestadorServico>
+			<IdentificacaoPrestador>
+				<Cnpj>32649500000145</Cnpj>
+				<InscricaoMunicipal>123</InscricaoMunicipal>
+			</IdentificacaoPrestador>
+			<RazaoSocial>WEB SERVICE XML</RazaoSocial>
+			<NomeFantasia>WEB SERVICE XML</NomeFantasia>
+			<Endereco>
+				<Endereco>RUA RUA GONÇALVES DIAS</Endereco>
+				<Numero>67</Numero>
+				<Complemento/>
+				<Bairro>CENTRO</Bairro>
+				<CodigoMunicipio>4304606</CodigoMunicipio>
+				<Uf>RS</Uf>
+				<Cep>********</Cep>
+			</Endereco>
+			<Contato>
+				<Telefone/>
+				<Email>nfse1234@gmail.com</Email>
+			</Contato>
+		</PrestadorServico>
+		<TomadorServico>
+			<IdentificacaoTomador>
+				<CpfCnpj>
+					<Cpf/>
+					<Cnpj>65736968000126</Cnpj>
+				</CpfCnpj>
+				<InscricaoMunicipal>1200</InscricaoMunicipal>
+			</IdentificacaoTomador>
+			<RazaoSocial>WEB CORP</RazaoSocial>
+			<Endereco>
+				<Endereco>RUA RUA MIGUEL DA FONSECA DÓREA, S/N</Endereco>
+				<Numero>107</Numero>
+				<Complemento/>
+				<Bairro>ADALBERTO ARAGÃO</Bairro>
+				<CodigoMunicipio>4304606</CodigoMunicipio>
+				<Uf>RS</Uf>
+				<Cep>********</Cep>
+			</Endereco>
+			<Contato>
+				<Telefone/>
+				<Email>nfse1234@gmail.com</Email>
+			</Contato>
+		</TomadorServico>
+		<OrgaoGerador>
+			<CodigoMunicipio>4304606</CodigoMunicipio>
+			<Uf>RS</Uf>
+		</OrgaoGerador>
+	</InfNfse>
+	
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#56"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>D08ENS23U4m65FvuG8VhasuMDsc=</DigestValue></Reference></SignedInfo><SignatureValue>P9Gnp/DH44A4HrhJ9axitBU53Jed+VgJxWK9B9+aGvyXe7Pw1YLyHMylDexSi/lFzg3UVW3yZHbU
+eviNX+E0o8N+X580a7IvRi6l7Bb24q4Hrty6F8kD6WL5zYKH2+LZwcf37/tf9wj2PHiFf/bvn1hO
+DRYIGvGnoJaPFvgDnMs=</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=www.e-nfs.com.br,OU=Nota Fiscal Servicos Eletronica,O=Abaco Tecnologia,L=Cuiaba,ST=Mato Grosso,C=BR</X509SubjectName><X509Certificate>MIICoTCCAgqgAwIBAgIES9iUvzANBgkqhkiG9w0BAQQFADCBlDELMAkGA1UEBhMCQlIxFDASBgNV
+BAgTC01hdG8gR3Jvc3NvMQ8wDQYDVQQHEwZDdWlhYmExGTAXBgNVBAoTEEFiYWNvIFRlY25vbG9n
+aWExKDAmBgNVBAsTH05vdGEgRmlzY2FsIFNlcnZpY29zIEVsZXRyb25pY2ExGTAXBgNVBAMTEHd3
+dy5lLW5mcy5jb20uYnIwHhcNMTAwNDI4MjAwNDE1WhcNMTEwNDI4MjAwNDE1WjCBlDELMAkGA1UE
+BhMCQlIxFDASBgNVBAgTC01hdG8gR3Jvc3NvMQ8wDQYDVQQHEwZDdWlhYmExGTAXBgNVBAoTEEFi
+YWNvIFRlY25vbG9naWExKDAmBgNVBAsTH05vdGEgRmlzY2FsIFNlcnZpY29zIEVsZXRyb25pY2Ex
+GTAXBgNVBAMTEHd3dy5lLW5mcy5jb20uYnIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAIGi
+AYBs/GCBABnz6ArUTdXvqUVMfI9SYvH9erWV67R50f2jRniE/WDaVGOBSlacwHg2K5rNxQCv3tMJ
+PCtJJ2SpoxRERyY6BIgRyNjVEJIdA31iIo3EW9V/WFOGCzHNKxoNO9uLoXJEkCoJ4Ee6xeTQeeUZ
+hAEW9Klm9cR8XzP5AgMBAAEwDQYJKoZIhvcNAQEEBQADgYEAWMI/ZxBo1nrp0kHC7CVbu5mVwaYO
++jqUq75wp+Wn4XgKcJb1RXv9EXXHuavEuqIqNQuLMwIcAmITOeY5FIy86Vdj4ZCYaNjT+lf5f+5l
+iT0I11c0stSgVSehMWErODu2I0+/AgidElopZlVJdjdxSVchj/+NBEr1XqS2VXp+rFY=</X509Certificate></X509Data></KeyInfo></Signature></Nfse></CompNfse></ConsultarNfseRpsResposta>]]></Outputxml>
+      </ConsultarNfsePorRps.ExecuteResponse>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

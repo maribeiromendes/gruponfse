@@ -1,0 +1,181 @@
+<EnviarLoteRpsEnvio xmlns="http://www.e-nfs.com.br">
+            <LoteRps id="123456789">
+               <NumeroLote>123456789</NumeroLote>
+               <Cnpj>18575072000122</Cnpj>
+               <InscricaoMunicipal>854776</InscricaoMunicipal>
+               <QuantidadeRps>2</QuantidadeRps>
+               <ListaRps>
+<Rps>
+	 <InfRps id="122">
+		<IdentificacaoRps>
+		   <Numero>122</Numero>
+		   <Serie>1</Serie>
+		   <Tipo>1</Tipo>
+		</IdentificacaoRps>
+		<DataEmissao>2011-01-19T12:00:00</DataEmissao>
+		<NaturezaOperacao>1</NaturezaOperacao>
+		<RegimeEspecialTributacao>2</RegimeEspecialTributacao>
+		<OptanteSimplesNacional>2</OptanteSimplesNacional>
+		<IncentivadorCultural>2</IncentivadorCultural>
+		<Status>1</Status>
+		<Servico>
+		   <Valores>
+			  <ValorServicos>1200.00</ValorServicos>
+			  <ValorDeducoes>0.00</ValorDeducoes>
+			  <ValorPis>0.00</ValorPis>
+			  <ValorCofins>0.00</ValorCofins>
+			  <ValorInss>0.00</ValorInss>
+			  <ValorIr>0.00</ValorIr>
+			  <ValorCsll>0.00</ValorCsll>
+			  <IssRetido>1</IssRetido>
+			  <ValorIss>60.00</ValorIss>
+			  <ValorIssRetido>60.00</ValorIssRetido>
+			  <OutrasRetencoes>0.00</OutrasRetencoes>
+			  <BaseCalculo>1200.00</BaseCalculo>
+			  <Aliquota>0.05</Aliquota>
+			  <ValorLiquidoNfse>1140.00</ValorLiquidoNfse>
+			  <DescontoIncondicionado>0.00</DescontoIncondicionado>
+			  <DescontoCondicionado>0.00</DescontoCondicionado>
+		   </Valores>
+		   <ItemListaServico>1101</ItemListaServico>
+		   <CodigoCnae>123</CodigoCnae>
+		   <CodigoTributacaoMunicipio>1101</CodigoTributacaoMunicipio>
+		   <Discriminacao>ESTACIONAMENTO</Discriminacao>
+		   <CodigoMunicipio>5107040</CodigoMunicipio>
+		</Servico>
+		<Prestador>
+		   <Cnpj>18575072000122</Cnpj>
+		   <InscricaoMunicipal>854776</InscricaoMunicipal>
+		</Prestador>
+		<Tomador>
+		   <IdentificacaoTomador>
+			  <CpfCnpj>
+				 <Cnpj>00584473000183</Cnpj>
+			  </CpfCnpj>
+			  <InscricaoMunicipal>804104</InscricaoMunicipal>
+		   </IdentificacaoTomador>
+		   <RazaoSocial>LAVA JATO CAMPEAO</RazaoSocial>
+		   <Endereco>
+			  <Endereco>RUA BARAO DE MELGACO</Endereco>
+			  <Numero>3726</Numero>
+			  <Complemento>CENTRO</Complemento>
+			  <Bairro>CENTRO</Bairro>
+			  <CodigoMunicipio>5107040</CodigoMunicipio>
+			  <Uf>MT</Uf>
+			  <Cep>78000000</Cep>
+		   </Endereco>
+		   <Contato>
+			  <Telefone>65 36170774</Telefone>
+			  <Email>AAGUIAR@ABACO.COM.BR</Email>
+		   </Contato>
+		</Tomador>
+	 </InfRps>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#122"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>pFHc7RilLbAKcNpEVw4IR0lla/g=</DigestValue></Reference></SignedInfo><SignatureValue>bAwkD+RxPlPTEsdeWJthQIhF/7gSVLFxWJ52nw3hzxCEXYHwMa3iP74Xpe+YfK4I8P8hio2AYU9C
+vqiZAmLlZXjv2QZgjKifW+5gcGSpXZbjCBXRGGyB02qEcfaWe6/1pFGwOslJf0oYqzVi4FWQPWDQ
+scUZ12szqb83F+4Jzcw=</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=www.e-nfs.com.br,OU=Nota Fiscal Servicos Eletronica,O=Abaco Tecnologia,L=Cuiaba,ST=Mato Grosso,C=BR</X509SubjectName><X509Certificate>MIICoTCCAgqgAwIBAgIES7D6mjANBgkqhkiG9w0BAQQFADCBlDELMAkGA1UEBhMCQlIxFDASBgNV
+BAgTC01hdG8gR3Jvc3NvMQ8wDQYDVQQHEwZDdWlhYmExGTAXBgNVBAoTEEFiYWNvIFRlY25vbG9n
+aWExKDAmBgNVBAsTH05vdGEgRmlzY2FsIFNlcnZpY29zIEVsZXRyb25pY2ExGTAXBgNVBAMTEHd3
+dy5lLW5mcy5jb20uYnIwHhcNMTAwMzI5MTkwODEwWhcNMTEwMzI5MTkwODEwWjCBlDELMAkGA1UE
+BhMCQlIxFDASBgNVBAgTC01hdG8gR3Jvc3NvMQ8wDQYDVQQHEwZDdWlhYmExGTAXBgNVBAoTEEFi
+YWNvIFRlY25vbG9naWExKDAmBgNVBAsTH05vdGEgRmlzY2FsIFNlcnZpY29zIEVsZXRyb25pY2Ex
+GTAXBgNVBAMTEHd3dy5lLW5mcy5jb20uYnIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAIP9
+jvf+OPrL4B9fTVf64mameReVjGejvpqatdTHxQ8X7FRvuKNR/5vHBb5vn6CcKBrCghCTLbcURLmc
+EeE1MUd5wP8hCX8Cywp0NAyuWYk1nRtrjoVdtSQD57Mox9nDjd0T75EArcnSjSdcc9lBhYCEe39X
+PqQ9YOEX8ec6VmRVAgMBAAEwDQYJKoZIhvcNAQEEBQADgYEAY595R2Tkr4PBukRMfurqBl0k3Gu2
+lcXKcOBGUQ6GMRDfLc8KF9We65+K68SLCGzDxYcavUbpU2Ed4DCQFpIv5OE/UgQDWfONmhPvrXjt
+YuGGIHpfRRecI5tgLGYYMJiK621ifrn1WtV6veYwrkH+2eUbybXAwkyXpjv1k0uY66s=</X509Certificate></X509Data></KeyInfo></Signature></Rps>
+<Rps>
+	 <InfRps id="123">
+		<IdentificacaoRps>
+		   <Numero>123</Numero>
+		   <Serie>1</Serie>
+		   <Tipo>1</Tipo>
+		</IdentificacaoRps>
+		<DataEmissao>2011-01-19T12:00:00</DataEmissao>
+		<NaturezaOperacao>1</NaturezaOperacao>
+		<RegimeEspecialTributacao>2</RegimeEspecialTributacao>
+		<OptanteSimplesNacional>2</OptanteSimplesNacional>
+		<IncentivadorCultural>2</IncentivadorCultural>
+		<Status>1</Status>
+		<Servico>
+		   <Valores>
+			  <ValorServicos>1200.00</ValorServicos>
+			  <ValorDeducoes>0.00</ValorDeducoes>
+			  <ValorPis>0.00</ValorPis>
+			  <ValorCofins>0.00</ValorCofins>
+			  <ValorInss>0.00</ValorInss>
+			  <ValorIr>0.00</ValorIr>
+			  <ValorCsll>0.00</ValorCsll>
+			  <IssRetido>1</IssRetido>
+			  <ValorIss>60.00</ValorIss>
+			  <ValorIssRetido>60.00</ValorIssRetido>
+			  <OutrasRetencoes>0.00</OutrasRetencoes>
+			  <BaseCalculo>1200.00</BaseCalculo>
+			  <Aliquota>0.05</Aliquota>
+			  <ValorLiquidoNfse>1140.00</ValorLiquidoNfse>
+			  <DescontoIncondicionado>0.00</DescontoIncondicionado>
+			  <DescontoCondicionado>0.00</DescontoCondicionado>
+		   </Valores>
+		   <ItemListaServico>1101</ItemListaServico>
+		   <CodigoCnae>123</CodigoCnae>
+		   <CodigoTributacaoMunicipio>1101</CodigoTributacaoMunicipio>
+		   <Discriminacao>ESTACIONAMENTO</Discriminacao>
+		   <CodigoMunicipio>5107040</CodigoMunicipio>
+		</Servico>
+		<Prestador>
+		   <Cnpj>18575072000122</Cnpj>
+		   <InscricaoMunicipal>854776</InscricaoMunicipal>
+		</Prestador>
+		<Tomador>
+		   <IdentificacaoTomador>
+			  <CpfCnpj>
+				 <Cnpj>00584473000183</Cnpj>
+			  </CpfCnpj>
+			  <InscricaoMunicipal>804104</InscricaoMunicipal>
+		   </IdentificacaoTomador>
+		   <RazaoSocial>LAVA JATO CAMPEAO</RazaoSocial>
+		   <Endereco>
+			  <Endereco>RUA BARAO DE MELGACO</Endereco>
+			  <Numero>3726</Numero>
+			  <Complemento>CENTRO</Complemento>
+			  <Bairro>CENTRO</Bairro>
+			  <CodigoMunicipio>5107040</CodigoMunicipio>
+			  <Uf>MT</Uf>
+			  <Cep>78000000</Cep>
+		   </Endereco>
+		   <Contato>
+			  <Telefone>65 36170774</Telefone>
+			  <Email>AAGUIAR@ABACO.COM.BR</Email>
+		   </Contato>
+		</Tomador>
+	 </InfRps>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#123"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>ZuBDrXg5WSFo/aC4j6RjiIy1gH0=</DigestValue></Reference></SignedInfo><SignatureValue>O66e94Y6x5GTGQ/1snLFjBW3rEkDjjWC6OSYecWHFjbxyrdvhlS8lDIZ0PZhMdBW3Yiz3iE0bk16
+ycG9G4CLrWVbyzN/WgSGcqAeF2SbxcgYCHPRh2nxfJFC6sRsjGaGdNwnqBShiQZimKU0SYoqkBZr
+SzdgakzpcwOQNVDS/kA=</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=www.e-nfs.com.br,OU=Nota Fiscal Servicos Eletronica,O=Abaco Tecnologia,L=Cuiaba,ST=Mato Grosso,C=BR</X509SubjectName><X509Certificate>MIICoTCCAgqgAwIBAgIES7D6mjANBgkqhkiG9w0BAQQFADCBlDELMAkGA1UEBhMCQlIxFDASBgNV
+BAgTC01hdG8gR3Jvc3NvMQ8wDQYDVQQHEwZDdWlhYmExGTAXBgNVBAoTEEFiYWNvIFRlY25vbG9n
+aWExKDAmBgNVBAsTH05vdGEgRmlzY2FsIFNlcnZpY29zIEVsZXRyb25pY2ExGTAXBgNVBAMTEHd3
+dy5lLW5mcy5jb20uYnIwHhcNMTAwMzI5MTkwODEwWhcNMTEwMzI5MTkwODEwWjCBlDELMAkGA1UE
+BhMCQlIxFDASBgNVBAgTC01hdG8gR3Jvc3NvMQ8wDQYDVQQHEwZDdWlhYmExGTAXBgNVBAoTEEFi
+YWNvIFRlY25vbG9naWExKDAmBgNVBAsTH05vdGEgRmlzY2FsIFNlcnZpY29zIEVsZXRyb25pY2Ex
+GTAXBgNVBAMTEHd3dy5lLW5mcy5jb20uYnIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAIP9
+jvf+OPrL4B9fTVf64mameReVjGejvpqatdTHxQ8X7FRvuKNR/5vHBb5vn6CcKBrCghCTLbcURLmc
+EeE1MUd5wP8hCX8Cywp0NAyuWYk1nRtrjoVdtSQD57Mox9nDjd0T75EArcnSjSdcc9lBhYCEe39X
+PqQ9YOEX8ec6VmRVAgMBAAEwDQYJKoZIhvcNAQEEBQADgYEAY595R2Tkr4PBukRMfurqBl0k3Gu2
+lcXKcOBGUQ6GMRDfLc8KF9We65+K68SLCGzDxYcavUbpU2Ed4DCQFpIv5OE/UgQDWfONmhPvrXjt
+YuGGIHpfRRecI5tgLGYYMJiK621ifrn1WtV6veYwrkH+2eUbybXAwkyXpjv1k0uY66s=</X509Certificate></X509Data></KeyInfo></Signature></Rps>	   
+			   </ListaRps>
+            </LoteRps>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#123456789"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>sJdCFBoQ2qVXxKBVYVm6UGvfHXE=</DigestValue></Reference></SignedInfo><SignatureValue>W+ccXBsJ8e9XQ/2EeZOfI1XdfU7N6y2SBJABrcgNgGBnxFWGZSGUE6f8rXcx29XPWTAOF6AI5FZI
+rZhANvPetNVpSfFRZ3KdYATFCAueKpQfw+7s1SOe8sn3oHkvZg7vPzpCWIV8pcsDWn79WmlmRUHg
+By7X5lQma2rNrvCeH0Q=</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=www.e-nfs.com.br,OU=Nota Fiscal Servicos Eletronica,O=Abaco Tecnologia,L=Cuiaba,ST=Mato Grosso,C=BR</X509SubjectName><X509Certificate>MIICoTCCAgqgAwIBAgIES7D6mjANBgkqhkiG9w0BAQQFADCBlDELMAkGA1UEBhMCQlIxFDASBgNV
+BAgTC01hdG8gR3Jvc3NvMQ8wDQYDVQQHEwZDdWlhYmExGTAXBgNVBAoTEEFiYWNvIFRlY25vbG9n
+aWExKDAmBgNVBAsTH05vdGEgRmlzY2FsIFNlcnZpY29zIEVsZXRyb25pY2ExGTAXBgNVBAMTEHd3
+dy5lLW5mcy5jb20uYnIwHhcNMTAwMzI5MTkwODEwWhcNMTEwMzI5MTkwODEwWjCBlDELMAkGA1UE
+BhMCQlIxFDASBgNVBAgTC01hdG8gR3Jvc3NvMQ8wDQYDVQQHEwZDdWlhYmExGTAXBgNVBAoTEEFi
+YWNvIFRlY25vbG9naWExKDAmBgNVBAsTH05vdGEgRmlzY2FsIFNlcnZpY29zIEVsZXRyb25pY2Ex
+GTAXBgNVBAMTEHd3dy5lLW5mcy5jb20uYnIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAIP9
+jvf+OPrL4B9fTVf64mameReVjGejvpqatdTHxQ8X7FRvuKNR/5vHBb5vn6CcKBrCghCTLbcURLmc
+EeE1MUd5wP8hCX8Cywp0NAyuWYk1nRtrjoVdtSQD57Mox9nDjd0T75EArcnSjSdcc9lBhYCEe39X
+PqQ9YOEX8ec6VmRVAgMBAAEwDQYJKoZIhvcNAQEEBQADgYEAY595R2Tkr4PBukRMfurqBl0k3Gu2
+lcXKcOBGUQ6GMRDfLc8KF9We65+K68SLCGzDxYcavUbpU2Ed4DCQFpIv5OE/UgQDWfONmhPvrXjt
+YuGGIHpfRRecI5tgLGYYMJiK621ifrn1WtV6veYwrkH+2eUbybXAwkyXpjv1k0uY66s=</X509Certificate></X509Data></KeyInfo></Signature></EnviarLoteRpsEnvio>
