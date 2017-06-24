@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ConsultarNfseFaixaRequest xmlns="http://www.ereceita.net.br/soap/NfseWebService"><nfseCabecMsg>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;cabecalho versao=&quot;2.02&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns=&quot;http://www.abrasf.org.br/nfse.xsd&quot;&gt;
+   &lt;versaoDados&gt;2.02&lt;/versaoDados&gt;
+&lt;/cabecalho&gt;
+</nfseCabecMsg><nfseDadosMsg>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;ConsultarNfseFaixaEnvio xmlns=&quot;http://www.abrasf.org.br/nfse.xsd&quot;&gt;&lt;Prestador&gt;&lt;CpfCnpj&gt;&lt;Cnpj&gt;99999999999999&lt;/Cnpj&gt;&lt;/CpfCnpj&gt;&lt;InscricaoMunicipal&gt;9.9.99999999&lt;/InscricaoMunicipal&gt;&lt;/Prestador&gt;&lt;Faixa&gt;&lt;NumeroNfseInicial&gt;201500000010001&lt;/NumeroNfseInicial&gt;&lt;NumeroNfseFinal&gt;201500000010002&lt;/NumeroNfseFinal&gt;&lt;/Faixa&gt;&lt;Pagina&gt;1&lt;/Pagina&gt;&lt;/ConsultarNfseFaixaEnvio&gt;
+</nfseDadosMsg></ConsultarNfseFaixaRequest></SOAP-ENV:Body></SOAP-ENV:Envelope>
